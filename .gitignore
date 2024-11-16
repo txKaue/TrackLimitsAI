@@ -1,7 +1,7 @@
 # Ignorar arquivos temporários do Python
 *.pyc
 *.pyo
-__pycache__/
+__pycache__/ 
 
 # Ignorar ambientes virtuais
 .venv/
@@ -60,3 +60,6 @@ checkpoint/
 
 # Ignorar outros arquivos de configuração ou temporários
 .env
+
+# Ignorar vídeos dentro da pasta videos/
+videos/*
