@@ -1,0 +1,5 @@
+
+train: D:/Kaue/Faculdade/TCC/TerceiraVersao/images/training
+val: D:/Kaue/Faculdade/TCC/TerceiraVersao/images/training  # Usando os dados de treino também para validação
+nc: 1  # Número de classes (substitua por sua quantidade real de classes)
+names: ['classe1']  # Nome da(s) classe(s)

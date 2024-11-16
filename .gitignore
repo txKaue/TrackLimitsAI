@@ -1,0 +1,62 @@
+# Ignorar arquivos temporários do Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar ambientes virtuais
+.venv/
+env/
+
+# Ignorar conteúdo dentro de images/ e labels/ mas manter as pastas
+datasetRoadMark/**/images/*
+datasetRoadMark/**/labels/*
+
+# Manter as pastas test/, train/, valid/ e o arquivo data.yaml
+!datasetRoadMark/test/
+!datasetRoadMark/train/
+!datasetRoadMark/valid/
+!datasetRoadMark/data.yaml
+
+# Ignorar labels.cache que é um arquivo gerado automaticamente
+datasetRoadMark/**/labels.cache
+
+# Ignorar arquivos grandes e de modelos
+models/*.pt
+yolov5su.pt
+
+# Ignorar arquivos de dados
+train_images.npy
+train_labels.npy
+
+# Ignorar arquivos de lock (pipenv, poetry, etc.)
+Pipfile.lock
+poetry.lock
+
+# Ignorar arquivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar caches de ML frameworks
+.cache/
+.pytorch/
+transformers_cache/
+
+# Ignorar logs e arquivos temporários de execução
+*.log
+*.out
+*.err
+
+# Ignorar arquivos de Docker (se houver)
+.docker/
+docker-compose.override.yml
+
+# Ignorar resultados intermediários de treinamento
+checkpoint/
+*.ckpt
+*.h5
+
+# Ignorar outros arquivos de configuração ou temporários
+.env
