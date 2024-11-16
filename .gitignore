@@ -7,7 +7,7 @@ __pycache__/
 .venv/
 env/
 
-#ignorar a pasta videos
+# Ignorar a pasta videos e seu conteúdo
 videos/
 
 # Ignorar conteúdo dentro de images/ e labels/ mas manter as pastas
@@ -63,6 +63,3 @@ checkpoint/
 
 # Ignorar outros arquivos de configuração ou temporários
 .env
-
-# Ignorar vídeos dentro da pasta videos/
-
