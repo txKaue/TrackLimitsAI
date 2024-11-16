@@ -62,8 +62,8 @@ def process_labels(label_path, image_shape):
     return corrected_labels
 
 # Caminhos para os dados
-data_dir = 'D:/Kaue/Faculdade/TCC/TerceiraVersao/images/training/'  # Caminho para as imagens de treino
-labels_dir = 'D:/Kaue/Faculdade/TCC/TerceiraVersao/labels/training/'  # Caminho para a pasta de rótulos
+data_dir = 'D:/Kaue/Faculdade/TCC/TerceiraVersao/datasetRoadMark/train/images'  # Caminho para as imagens de treino
+labels_dir = 'D:/Kaue/Faculdade/TCC/TerceiraVersao/datasetRoadMark/train/labels'  # Caminho para a pasta de rótulos
 
 # Verificar se a pasta de rótulos existe e criar se necessário
 if not os.path.exists(labels_dir):
