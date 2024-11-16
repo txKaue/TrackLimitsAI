@@ -7,6 +7,8 @@ __pycache__/
 .venv/
 env/
 
+videos/
+
 # Ignorar conteúdo dentro de images/ e labels/ mas manter as pastas
 datasetRoadMark/**/images/*
 datasetRoadMark/**/labels/*
@@ -62,4 +64,4 @@ checkpoint/
 .env
 
 # Ignorar vídeos dentro da pasta videos/
-videos/*.mp4
+
