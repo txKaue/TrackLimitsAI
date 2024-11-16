@@ -62,4 +62,4 @@ checkpoint/
 .env
 
 # Ignorar vídeos dentro da pasta videos/
-videos/*
+videos/*.mp4
