@@ -84,7 +84,7 @@ class TrackLimitDetector:
 
 # Caminhos de entrada e saída
 video_path = 'D:/Kaue/Faculdade/TCC/TerceiraVersao/images/AustriaMaxCorte.mp4'  # Alterar para o seu vídeo
-model_path = 'models/cantil_yolov5.pt'  # Caminho para o modelo treinado
+model_path = 'models/segundo_yolov5.pt'  # Caminho para o modelo treinado
 output_video_path = 'D:/Kaue/Faculdade/TCC/TerceiraVersao/images/video_processado.mp4'  # Caminho para o vídeo de saída
 log_file_path = 'D:/Kaue/Faculdade/TCC/TerceiraVersao/images/detecoes.txt'  # Caminho para o arquivo de log
 
